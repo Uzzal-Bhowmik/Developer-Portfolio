@@ -57,19 +57,39 @@ section{
 .expertise-section{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
-    background-position-x: left;
+    background-position-x: right;
     background-position-y: bottom;
 }
 .expertise-section div{
     width: 40%;
-    border-left: 8px solid tomato;
     padding-left: 25px;
     margin-right: 5%;
     margin-left: 5%;
-    border-radius: 5%;
     box-shadow: 10px 10px 40px 10px rgba(128, 128, 128, 0.883);
     height: 500px;
 }
 .expertise-section h3{
     color: hotpink;
+}
+#python-border-image{
+    border: 1px solid transparent;
+    border-radius: 16px;
+    background-image: linear-gradient(white, white), 
+                      linear-gradient(to bottom, salmon, tomato);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+#dsa-border-image{
+    border: 1px solid transparent;
+    border-radius: 16px;
+    background-image: linear-gradient(white, white), 
+                      linear-gradient(to bottom, red, black);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+
+}
+
+footer p{
+    text-align: center;
 }
