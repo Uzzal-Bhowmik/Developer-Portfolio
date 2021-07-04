@@ -75,7 +75,7 @@ section{
     border: 1px solid transparent;
     border-radius: 16px;
     background-image: linear-gradient(white, white), 
-                      linear-gradient(to bottom, salmon, tomato);
+                      linear-gradient(to bottom, blue, tomato);
     background-origin: border-box;
     background-clip: content-box, border-box;
 }
