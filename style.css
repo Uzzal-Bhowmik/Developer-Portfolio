@@ -15,6 +15,9 @@ h3{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
+}
+.welcome-section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
@@ -37,4 +40,17 @@ section{
 }
 .hireme-button:hover{
     color: navy;
+}
+.dream-big-section{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+}
+.dream-big-section p{
+    width: 88%;
+}
+.
+.fix-margin-top{
+    margin-top: 50px;
 }
