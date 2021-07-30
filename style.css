@@ -141,7 +141,7 @@ footer i:hover{
 }
 
 /* media queries  */
-@media only screen and (max-width: 688px){
+@media only screen and (max-width: 988px){
     /* welcome section and styles  */
     .welcome-section {
         flex-direction: column-reverse;    
